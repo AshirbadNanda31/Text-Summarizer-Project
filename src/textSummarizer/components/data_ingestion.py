@@ -6,8 +6,6 @@ from textSummarizer.utils.common import get_size
 from pathlib import Path
 from textSummarizer.entity import DataInjestionConfig
 
-
-
 class DataInjestion:
     def __init__(self, config: DataInjestionConfig):
         self.config = config
